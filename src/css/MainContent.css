@@ -1,0 +1,15 @@
+.main__content {
+    height: 73vh;
+    width: 65vw;
+    margin-top: 3vh;
+}
+
+.loading__gif {
+    display: flex;
+    width: 65vw;
+    justify-content: center;
+}
+
+.loading__gif img {
+    margin-left: -10%;
+}

@@ -1,0 +1,19 @@
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right__top, .right__body {
+    width: 67vw;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vw;
+}
+
+.right__top {
+    height: 12vh;
+}
+
+.right__body {
+    height: 73vh;
+}

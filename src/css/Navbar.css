@@ -1,0 +1,18 @@
+.navbar {
+    width: 63vw;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: flex-end;
+    margin-right: 3vw;
+}
+
+.navbar small {
+    margin-top: 7px;
+    color: rgb(19, 28, 143);
+}
+
+.navbar p {
+    margin-top: 20px;
+    color: rgb(129, 19, 143);
+}

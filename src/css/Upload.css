@@ -1,0 +1,32 @@
+.upload {
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+
+.upload_btn {
+    margin: 1em;
+    margin-left: 40%;
+}
+
+.upload Button {
+    width: 25ch !important;
+    margin-left: 45% !important;
+    margin-top: 2em !important;
+}
+
+.MuiDropzoneArea-root {
+    width: 80% !important;
+    margin-left: 1em !important;
+    margin-top: 2em !important;
+    border: dashed 1px !important;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 250px;
+    border-color: rgba(168, 163, 163, 0.12);
+    border-radius: 4px;
+    background-color:rgba(243, 235, 235, 0.932) !important;
+}
