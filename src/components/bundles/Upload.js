@@ -103,7 +103,7 @@ function Upload( { account, contract }) {
             <form className="upload__form"  onSubmit={(e) => uploadDetails(e)}>
                 <TextField 
                     id="name" 
-                    label="File Name" 
+                    label="Patient Name" 
                     style={{width:'35vw', margin:'8px', marginLeft:'40px'}}
                     onChange={e=> {setFileName(e.target.value)}} 
                     required

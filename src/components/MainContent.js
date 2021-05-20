@@ -73,10 +73,11 @@ function MainContent( { web3, contract, account, isRegistrar } ) {
                 </Router>                
             </div>
             :
-            <div className="loading__gif">
+            <div className="app__loading__gif">
                 <img 
                     src="https://software-advice.imgix.net/base/imageLoading.gif"   
                     alt="logo..."  
+                    style={{display:'block', margin:'auto'}}
                 />
             </div>
     )

@@ -65,7 +65,8 @@ function App() {
     :
     <div className="app__loading__gif">
         <img 
-          src="https://i.gifer.com/KDVh.gif"  
+          style={{display:'block', margin:'auto'}}
+          src="https://software-advice.imgix.net/base/imageLoading.gif"  
           alt="logo..."    
         />
     </div>

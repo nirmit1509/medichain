@@ -18,7 +18,7 @@
 
 .app__loading__gif img{
     position: fixed !important;
-    top: 25% !important;
+    top: 30% !important;
     left: 40% !important;
-    margin: -50px 0px 0px -50px !important;
+    margin: auto !important;
 }

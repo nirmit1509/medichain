@@ -50,7 +50,7 @@ function Home({ web3, account, contract, records }) {
 
     const columns = [
         { title: "ID",              field: "recordId",   headerStyle: headerCSS,  cellStyle: cellCSS },
-        { title: "File_Name",       field: "fileName",   headerStyle: headerCSS,  cellStyle: cellCSS },
+        { title: "Patient_Name",    field: "fileName",   headerStyle: headerCSS,  cellStyle: cellCSS },
         { title: "Owner",           field: "owner",      headerStyle: headerCSS,  cellStyle: cellCSS,
           render: row => 
             <Tooltip title={row.owner} placement="bottom-end">
