@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: MIT
-
-pragma solidity >=0.5.0;
+pragma solidity 0.8.13;
 
 contract MediChain {
     
@@ -23,13 +22,11 @@ contract MediChain {
         require(bytes(_hash).length > 0, "Invalid document IPFS hash");
         require(bytes(_fileName).length > 0, "Invalid document name");
         recordCount ++;
-        records[recordCount] = Record({
-            recordId: recordCount, 
-            ipfsHash: _hash, 
-            fileName: _fileName, 
-            owner: msg.sender
-        });
         Record storage r = records[recordCount];
+        r.recordId = recordCount;
+        r.ipfsHash = _hash;
+        r.fileName = _fileName;
+        r.owner = msg.sender;
         r.permissions[r.owner] = Permission.editor;
     }
     
