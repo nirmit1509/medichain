@@ -1,8 +1,8 @@
-import { store } from 'react-notifications-component';
+import { Store } from 'react-notifications-component';
 import 'react-notifications-component/dist/theme.css';
 import 'animate.css/animate.compat.css'
 
-export const SuccessAlert = (msg) => { store.addNotification({
+export const SuccessAlert = (msg) => { Store.addNotification({
     title: 'Success',
     message: msg,
     type: 'success',                         // 'default', 'success', 'info', 'warning'
@@ -15,7 +15,7 @@ export const SuccessAlert = (msg) => { store.addNotification({
   })
 }
 
-export const FailureAlert = (msg) => { store.addNotification({
+export const FailureAlert = (msg) => { Store.addNotification({
   title: 'Alert',
   message: msg,
   type: 'danger',                         // 'default', 'success', 'info', 'warning'

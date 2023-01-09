@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../css/App.css';
 import MediChainContract from '../abis/MediChain.json';
 import getWeb3 from '../getWeb3';
-import ReactNotifications from 'react-notifications-component';
+import { ReactNotifications } from 'react-notifications-component';
 import Left from './Left';
 import Right from './Right';
 
