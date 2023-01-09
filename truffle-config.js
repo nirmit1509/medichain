@@ -1,5 +1,3 @@
-require('babel-register');
-require('babel-polyfill');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 const mumbaiRPC = '';
@@ -26,7 +24,7 @@ module.exports = {
   contracts_build_directory: './src/abis/',
   compilers: {
     solc: {
-      version: "0.8.13",
+      version: "0.8.17",
       optimizer: {
         enabled: true,
         runs: 200
